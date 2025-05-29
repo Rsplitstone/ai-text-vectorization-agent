@@ -21,6 +21,7 @@ text-vector-agent/
 │   │   ├── vectorization/          # Core vector agent
 │   │   ├── correlation/            # Analysis agent
 │   │   ├── orchestration/          # System coordination
+│   │   ├── pattern_mining/         # Pattern mining agent
 │   │   └── visualization/          # Interactive displays
 │   ├── core/
 │   │   ├── algorithms/             # Skip-pattern implementations
@@ -104,8 +105,9 @@ python scripts/benchmark.py
 
 1. **Vectorization Agent**: Implements skip-gram algorithms with prime/log patterns
 2. **Correlation Agent**: Performs statistical analysis and pattern mining
-3. **Analysis Orchestrator**: Coordinates workflows and manages state
-4. **Visualization Agent**: Generates interactive plots and dashboards
+3. **Pattern Mining Agent**: Discovers emergent linguistic patterns
+4. **Analysis Orchestrator**: Coordinates workflows and manages state
+5. **Visualization Agent**: Generates interactive plots and dashboards
 
 ### Communication Protocols
 
@@ -121,7 +123,7 @@ python scripts/benchmark.py
 - **Prime-Based Context**: Uses prime number intervals for context extraction
 - **Logarithmic Weighting**: Natural log-based distance weighting
 - **Dynamic Windows**: Adaptive context window sizing
-- **Pattern Mining**: Emergent linguistic pattern discovery
+- **Pattern Mining**: Emergent linguistic pattern discovery via dedicated agent
 
 ### Evaluation Framework
 
